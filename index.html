@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- plugin stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
     <!-- main stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- google font  -->
@@ -20,7 +24,69 @@
 </head>
 
 <body>
-    <div class="bg-white">
+    <!-- responsive menu -->
+    <div class="container mx-auto bg-white ciseco-hide-one">
+        <div class="grid grid-cols-2">
+            <div class="col-span-1  p-2  flex justify-left justify-items-center">
+                <img class="" src="images/logo/logo.14d0e71d.svg" alt="">
+
+            </div>
+            <div class="col-span-1  p-2  flex justify-end justify-items-center">
+                <a href="#" class="cursor-pointer pt-2 Ciseco-menu-show"><svg xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                    </svg></a>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- side menu -->
+    <div class=" bg-white absolute top:0 left:0 Ciseco-index">
+        <div class="grid grid-cols-2">
+            <div class="col-span-1">
+                <img src="images/logo/logo.14d0e71d.svg" alt="">
+            </div>
+
+            <div class="col-span-1 flex justify-end justify-items-center">
+                <div class=" hover:text-red-600">
+                    <a class=" Ciseco-menu-hide" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="p-3">
+            <div class="">
+                <ul class="">
+                    <li class="p-3"><a class="    " href="#">Men</a>
+                    </li>
+                    <li class="p-3 "><a class="  " href="#">Women</a>
+                    </li>
+                    <li class="p-3 "><a class="  " href="#">Beauty</a>
+                    </li>
+                    <li class="p-3 "><a class="  " href="#">Sport</a>
+                    </li>
+                    <li class="p-3"><a class="" href="#"> Templates</a></li>
+                    <li class="p-4  hover:underline decoration-2 underline-offset-8 "><a class="" href="#">Explore</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- main menu -->
+    <div class="bg-white ciseco-hide-two">
         <div class="container mx-auto">
             <div class="grid grid-cols-6">
                 <div class="col-span-1  ">
@@ -358,7 +424,7 @@
                         style="left:492px;top:95px;width:400px;height:40px;position:absolute;opacity:0;color:#4d2311;font-size:32px;font-weight:900;line-height:1.2;letter-spacing:0.4em;">
                         SUMMER</div>
                     <div data-to="50% 50%" data-t="19" data-arr="18"
-                        style="left:520px;top:160px;width:450px;height:40px;position:absolute;opacity:0;color:#4d2311;font-size:32px;font-weight:900;line-height:1.2;letter-spacing:0.4em;">
+                        style="left:550px;top:160px;width:400px;height:40px;position:absolute;opacity:0;color:#4d2311;font-size:32px;font-weight:900;line-height:1.2;letter-spacing:0.4em;">
                         COLLECTION</div>
                 </div>
             </div>
@@ -386,13 +452,149 @@
             </svg>
         </div>
     </div>
+
+
+    <!-- slider two -->
+    <div class="md:container mx-auto my-6">
+        <div class="py-6 ">
+            <h2 class="sm:text-3xl fw-md text-dark">Discover more. <span class="text-current"> Good things are waiting
+                    for
+                    you</span></h2>
+        </div>
+        <section id="demos ">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="loop owl-carousel owl-theme ">
+                        <div class="item">
+                            <div class=" bg-amber-100 cursor-pointer rounded-2xl ">
+                                <div class="sm:grid sm:grid-cols-7 grid grid-cols-10 p-2 shadow">
+                                    <div class="text sm:col-span-4  col-span-7 justify-center justify-items-center">
+                                        <div class="sm:py-8 py-2">
+                                            <p class="sm:text-md sm:mx-6 text-sm mx-4">Explore new arrivals</p>
+                                            <h2 class="sm:text-2xl sm:mx-6 text-xl mx-4">Shop the latest <br> from top
+                                                brands</h2>
+                                            <button
+                                                class="btn sm:mt-8 sm:mx-6 mt-2 mx-2 bg-slate-50 sm:py-3 sm:px-6 py-2 px-4 rounded-3xl hover:bg-slate-400">
+                                                show me all
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="image sm:col-span-3 col-span-3 h-50">
+                                        <img class="w-25 h-50 sm:mt-0 mt-4" src="images/mega-menu/1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" bg-emerald-100 cursor-pointer rounded-2xl ">
+                                <div class="sm:grid sm:grid-cols-7 grid grid-cols-10 p-2 shadow">
+                                    <div class="text sm:col-span-4  col-span-7 justify-center justify-items-center">
+                                        <div class="sm:py-8 py-2">
+                                            <p class="sm:text-md sm:mx-6 text-sm mx-4">Digital gift cards</p>
+                                            <h2 class="sm:text-2xl sm:mx-6 text-xl mx-4">Give the gift <br> of choice
+                                            </h2>
+                                            <button
+                                                class="btn sm:mt-8 sm:mx-6 mt-2 mx-2 bg-slate-50 sm:py-3 sm:px-6 py-2 px-4 rounded-3xl hover:bg-slate-400">
+                                                show me all
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="image sm:col-span-3 col-span-3 h-50">
+                                        <img class="w-25 h-50 sm:mt-0 mt-4" src="images/mega-menu/3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-span-3 bg-slate-200 cursor-pointer rounded-2xl ">
+                                <div class="sm:grid sm:grid-cols-7 grid grid-cols-10 p-2 shadow">
+                                    <div class="text sm:col-span-4  col-span-7 justify-center justify-items-center">
+                                        <div class="sm:py-8 py-2">
+                                            <p class="sm:text-md sm:mx-6 text-sm mx-4">Sale collection</p>
+                                            <h2 class="sm:text-2xl sm:mx-6 text-xl mx-4">UP to <br> 80% off retail</h2>
+                                            <button
+                                                class="btn sm:mt-8 sm:mx-6 mt-2 mx-2 bg-slate-50 sm:py-3 sm:px-6 py-2 px-4 rounded-3xl hover:bg-slate-400">
+                                                show me all
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="image sm:col-span-3 col-span-3 h-50">
+                                        <img class="w-25 h-50 sm:mt-0 mt-4" src="images/mega-menu/4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-span-3 bg-rose-300 cursor-pointer rounded-2xl ">
+                                <div class="sm:grid sm:grid-cols-7 grid grid-cols-10 p-2 shadow">
+                                    <div class="text sm:col-span-4  col-span-7 justify-center justify-items-center">
+                                        <div class="sm:py-8 py-2">
+                                            <p class="sm:text-md sm:mx-6 text-sm mx-4">Sale collection</p>
+                                            <h2 class="sm:text-2xl sm:mx-6 text-xl mx-4">UP to <br> 80% off retail</h2>
+                                            <button
+                                                class="btn sm:mt-8 sm:mx-6 mt-2 mx-2 bg-slate-50 sm:py-3 sm:px-6 py-2 px-4 rounded-3xl hover:bg-slate-400">
+                                                show me all
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="image sm:col-span-3 col-span-3 h-50">
+                                        <img class="w-25 h-50 sm:mt-0 mt-4" src="images/mega-menu/5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-span-3 bg-lime-200 cursor-pointer rounded-2xl ">
+                                <div class="sm:grid sm:grid-cols-7 grid grid-cols-10 p-2 shadow">
+                                    <div class="text sm:col-span-4  col-span-8 justify-center justify-items-center">
+                                        <div class="sm:py-8 py-2">
+                                            <p class="sm:text-md sm:mx-6 text-sm mx-4">Sale collection</p>
+                                            <h2 class="sm:text-2xl sm:mx-6 text-md mx-4">UP to <br> 80% off retail</h2>
+                                            <button
+                                                class="btn sm:mt-8 sm:mx-6 mt-2 mx-2 bg-slate-50 sm:py-3 sm:px-6 py-2 px-4 rounded-3xl hover:bg-slate-400">
+                                                show me all
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="image sm:col-span-3 col-span-2 h-50">
+                                        <img class="w-25 h-50 sm:mt-0 mt-4" src="images/mega-menu/2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- slider -->
     <script src="assets/js/jssor.slider.min.js"></script>
     <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <!--orl javascript -->
+
+    <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/script.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
             jssor_1_slider_init();
+            jQuery(".Ciseco-menu-show").click(function () {
+                jQuery(".Ciseco-index").slideToggle();
+            });
+            jQuery(".Ciseco-menu-hide").click(function () {
+                jQuery(".Ciseco-index").fadeOut();
+            });
+
         });
     </script>
 </body>

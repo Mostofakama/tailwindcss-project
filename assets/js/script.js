@@ -1,4 +1,5 @@
 jQuery(document).ready(function () {
+
     window.jssor_1_slider_init = function () {
 
         var jssor_1_SlideoTransitions = [
@@ -68,4 +69,42 @@ jQuery(document).ready(function () {
         $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
         /*#endregion responsive code end*/
     };
+
+    $('.loop').owlCarousel({
+        center: true,
+        items: 2,
+        loop: true,
+        margin: 10,
+        responsive: {
+            1100: {
+                items: 3
+            },
+            1000: {
+                items: 2
+            },
+            600: {
+                items: 1
+            },
+            500: {
+                items: 1
+            },
+            400: {
+                items: 1
+            },
+            300: {
+                items: 1
+            },
+            200: {
+                items: 1
+            },
+            100: {
+                items: 1
+            }
+
+        }
+    });
+
+
+
+
 });
